@@ -1,3 +1,7 @@
+
+/* Altere o arquivo CSS para que o layout tenha a aparência e o
+fluxo do gif abaixo. Para isso, utilize as propriedades `flex-wrap` e `gap`. */
+
 *{
   margin: 0;
   padding: 0;
@@ -6,4 +10,6 @@
 main{
   padding-top: 20px;
   display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
 }
